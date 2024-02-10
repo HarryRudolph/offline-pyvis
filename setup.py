@@ -3,16 +3,16 @@ from setuptools import setup, find_packages
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-exec(open('pyvis/_version.py').read())
+exec(open('offline_pyvis/_version.py').read())
 setup(
-    name="pyvis",
+    name="offline_pyvis",
     version=__version__,
-    description="A Python network graph visualization library",
+    description="An offline implementation of pyvis", 
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url="https://github.com/WestHealth/pyvis",
-    author="Jose Unpingco",
-    author_email="datascience@westhealth.org",
+    url="https://github.com/harryrudolph/offline-pyvis",
+    author="Harry Rudolph",
+    author_email="",
     license="BSD",
     packages=find_packages(),
     include_package_data=True,
