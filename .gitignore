@@ -27,3 +27,5 @@ venv
 
 # intellij specific
 .idea/
+
+.DS_Store
