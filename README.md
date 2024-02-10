@@ -12,14 +12,6 @@ Pyvis' full documentation can be found at http://pyvis.readthedocs.io/en/latest/
 
 ## Installation
 
-You can install offline-pyvis through pip:
-
-```bash
-pip install offline-pyvis
-```
-
-Or if you have an archive of the project simply run the following from the top level directory:
-
 ```bash
 python setup.py install
 ```
