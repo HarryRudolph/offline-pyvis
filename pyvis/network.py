@@ -30,7 +30,7 @@ class Network(object):
                  height="600px",
                  width="100%",
                  directed=False,
-                 notebook=False,
+                 notebook=True,
                  neighborhood_highlight=False,
                  select_menu=False,
                  filter_menu=False,
@@ -38,7 +38,7 @@ class Network(object):
                  font_color=False,
                  layout=None,
                  heading="",
-                 cdn_resources="local"):
+                 cdn_resources="in_line"):
         """
         :param height: The height of the canvas
         :param width: The width of the canvas
